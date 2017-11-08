@@ -1,0 +1,33 @@
+{
+	"name": "microbible",
+	"version": "0.0.1",
+	"description": "MicroBible是一款免费的圣经阅读APP, 但未来不止于此",
+	"bugs": {
+		"url": "https://github.com/LoversSZ/MicroBible",
+		"email": "mtshen1997@163.com"
+	},
+	"keywords": [
+		"microbible",
+		"bible"
+	],
+	"author": "xiaojiez&mtshen",
+	"main": "index.js",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.0.0-beta.5",
+		"react-native": "0.49.5"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0-beta.5"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
